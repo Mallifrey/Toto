@@ -85,12 +85,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ext\freetype-gl\distance-field.c" />
-    <ClCompile Include="ext\freetype-gl\edtaa3func.c" />
     <ClCompile Include="ext\freetype-gl\platform.c" />
     <ClCompile Include="ext\freetype-gl\texture-atlas.c" />
     <ClCompile Include="ext\freetype-gl\texture-font.c" />
-    <ClCompile Include="ext\freetype-gl\utf8-utils.c" />
     <ClCompile Include="ext\freetype-gl\vector.c" />
     <ClCompile Include="ext\freetype\src\autofit\autofit.c" />
     <ClCompile Include="ext\freetype\src\base\ftbase.c" />
@@ -136,6 +133,7 @@
     <ClCompile Include="src\graphics\buffers\buffer.cpp" />
     <ClCompile Include="src\graphics\buffers\indexbuffer.cpp" />
     <ClCompile Include="src\graphics\buffers\vertexarray.cpp" />
+    <ClCompile Include="src\graphics\label.cpp" />
     <ClCompile Include="src\graphics\layers\group.cpp" />
     <ClCompile Include="src\graphics\layers\layer.cpp" />
     <ClCompile Include="src\graphics\layers\tilelayer.cpp" />
@@ -151,14 +149,12 @@
     <ClCompile Include="src\maths\vec4.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ext\freetype-gl\distance-field.h" />
-    <ClInclude Include="ext\freetype-gl\edtaa3func.h" />
+    <ClInclude Include="ext\freetype-gl\common.h" />
     <ClInclude Include="ext\freetype-gl\freetype-gl.h" />
     <ClInclude Include="ext\freetype-gl\opengl.h" />
     <ClInclude Include="ext\freetype-gl\platform.h" />
     <ClInclude Include="ext\freetype-gl\texture-atlas.h" />
     <ClInclude Include="ext\freetype-gl\texture-font.h" />
-    <ClInclude Include="ext\freetype-gl\utf8-utils.h" />
     <ClInclude Include="ext\freetype-gl\vec234.h" />
     <ClInclude Include="ext\freetype-gl\vector.h" />
     <ClInclude Include="ext\freetype\include\config\ftconfig.h" />
@@ -171,6 +167,7 @@
     <ClInclude Include="src\graphics\buffers\buffer.h" />
     <ClInclude Include="src\graphics\buffers\indexbuffer.h" />
     <ClInclude Include="src\graphics\buffers\vertexarray.h" />
+    <ClInclude Include="src\graphics\label.h" />
     <ClInclude Include="src\graphics\layers\group.h" />
     <ClInclude Include="src\graphics\layers\layer.h" />
     <ClInclude Include="src\graphics\layers\tilelayer.h" />

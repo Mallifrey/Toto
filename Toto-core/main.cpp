@@ -23,6 +23,8 @@
 
 #include "src/graphics/texture.h"
 
+#include "src/graphics/label.h"
+
 #if 1
 int main()
 {
@@ -72,18 +74,29 @@ int main()
 		}
 	}
 #endif
-	
+
+
+
+	Group* g = new Group(maths::mat4::translation(maths::vec3(-15.5f, 7.0f, 0.0f)));
+	Label* fps = new Label("", 0.4, 0.4f, maths::vec4(0.8f, 0.8f, 0.8f, 1.0f));
+
+	g->add(new Sprite(0, 0, 5, 1.5f, maths::vec4(0.2f, 0.2f, 0.2f, 0.8f)));
+	g->add(fps);
+
+	layer.add(g);
+
+
 	GLint texIDs[] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 };
 
 	shader.enable();
 	shader.setUniform1iv("textures", 32, texIDs);
 	shader.setUniformMat4("pr_matrix", maths::mat4::orthographic(-16.0f, 16.0f, -9.0f, 9.0f, -1.0f, 1.0f));
-	
+
 
 	Timer time;
 	float t = 0;
 	unsigned int frames = 0;
-	
+
 	while (!window.closed()){
 
 		window.clear();
@@ -100,6 +113,7 @@ int main()
 		frames++;
 		if (time.elapsed() - t > 1.0f) {
 			t += 1.0f;
+			fps->text = std::to_string(frames) + "fps";
 			printf("%d ftp\n", frames);
 			frames = 0;
 		}

@@ -29,7 +29,7 @@ namespace toto { namespace graphics {
 	protected:
 		Renderable2D() { setUVDefaults(); }
 	public:
-		Renderable2D(maths::vec3 position, maths::vec2 size, maths::vec4 color) : m_Position(position), m_Size(size), m_Color(color){ setUVDefaults(); }
+		Renderable2D(maths::vec3 position, maths::vec2 size, maths::vec4 color) : m_Position(position), m_Size(size), m_Color(color), m_Texture(nullptr) { setUVDefaults(); }
 		virtual ~Renderable2D() { }
 
 		virtual void submit(Renderer2D* renderer) const{
@@ -41,7 +41,7 @@ namespace toto { namespace graphics {
 		inline const maths::vec4& getColor() const { return m_Color; }
 		inline const std::vector<maths::vec2>& getUV() const { return m_UV; }
 
-		inline const GLuint GetTID() const { return m_Texture == nullptr ? 0 : m_Texture->getID(); }
+		inline const GLuint GetTID() const { return m_Texture ? m_Texture->getID() : 0; }
 	private:
 		void setUVDefaults(){
 			m_UV.push_back(maths::vec2(0, 0));
