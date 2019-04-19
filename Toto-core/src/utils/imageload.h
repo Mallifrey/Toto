@@ -4,7 +4,7 @@
 #include <FreeImage.h>
 
 namespace toto {
-	static BYTE* load_image(const char* filename, unsigned int* width, unsigned int* height) {
+	static BYTE* load_image(const char* filename, GLsizei* width, GLsizei* height) {
 
 		FREE_IMAGE_FORMAT fif = FIF_UNKNOWN;
 		FIBITMAP *dib = nullptr;
@@ -19,10 +19,15 @@ namespace toto {
 		if (!dib)
 			return nullptr;
 
-		BYTE* result = FreeImage_GetBits(dib);
-		unsigned int s = FreeImage_GetBPP(dib);
+		BYTE* pixels = FreeImage_GetBits(dib);
 		*width = FreeImage_GetWidth(dib);
 		*height = FreeImage_GetHeight(dib);
+		int bits = FreeImage_GetBPP(dib);
+
+		int size = *width * *height * (bits / 8);
+		BYTE* result = new BYTE[size];
+		memcpy(result, pixels, size);
+		FreeImage_Unload(dib);
 
 		return result;
 	}

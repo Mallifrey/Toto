@@ -17,7 +17,10 @@ namespace toto{ namespace graphics {
 		virtual ~Layer();
 		virtual void add(Renderable2D* renderable);
 		virtual void render();
+
 		int size() { return m_Renderables.size(); };
+
+		inline const std::vector<Renderable2D*>& getRenderables() const { return m_Renderables; }
 	};
 
 }}

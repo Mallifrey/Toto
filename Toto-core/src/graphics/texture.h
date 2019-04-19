@@ -11,7 +11,7 @@ namespace toto { namespace graphics{
 	private:
 		std::string m_FileName;
 		GLuint m_TID;
-		unsigned int m_Width, m_Height;
+		int m_Width, m_Height;
 	public:
 		Texture(const std::string& filename);
 		~Texture();

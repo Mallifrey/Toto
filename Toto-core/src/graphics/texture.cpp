@@ -22,7 +22,7 @@ namespace toto{ namespace graphics {
 		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, m_Width, m_Height, 0, GL_BGR, GL_UNSIGNED_BYTE, pixels);
 		glBindTexture(GL_TEXTURE_2D, 0);
 
-		// delete[] pixels;
+		delete[] pixels;
 
 		return result;
 	}

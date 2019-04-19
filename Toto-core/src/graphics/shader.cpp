@@ -59,8 +59,8 @@ namespace toto { namespace graphics {
 				color = fs_in.color * intensity;\n\
 			}";
 #else
-		std::string vertSourceString = FileUtils::read_file(m_VertPath);
-		std::string fragSourceString = FileUtils::read_file(m_FragPath);
+		std::string vertSourceString = read_file(m_VertPath);
+		std::string fragSourceString = read_file(m_FragPath);
 
 		const char* vertSource = vertSourceString.c_str();
 		const char* fragSource = fragSourceString.c_str();

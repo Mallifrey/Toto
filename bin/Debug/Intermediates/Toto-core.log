@@ -1,15 +1,27 @@
-﻿Build started 31/12/2018 17:20:18.
+﻿Build started 19/4/2019 17:26:38 .
      1>Project "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\Toto-core\Toto-core.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         E:\VisualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D GLEW_STATIC /D FT2_BUILD_LIBRARY /D WIN32 /D _LIB /D _CTR_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTCu /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\\" /Fd"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         E:\VisualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Ob0 /Oi /Ot /Oy- /D GLEW_STATIC /D FT2_BUILD_LIBRARY /D WIN32 /D _LIB /D _CTR_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTCu /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\\" /Fd"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp src\graphics\window.cpp
+         window.cpp
          main.cpp
-     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
-                 c:\users\honza\documents\visual studio 2013\projects\toto\dependencies\glfw\include\glfw\glfw3.h(98) : see previous definition of 'APIENTRY'
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(14): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(15): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(16): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(17): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(41): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(42): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(43): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(44): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
      1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\layers\tilelayer.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
      1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\layers\layer.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
      1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\layers\layer.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\main.cpp(59): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
-     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\main.cpp(81): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\main.cpp(62): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\main.cpp(72): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\main.cpp(73): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\main.cpp(74): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\main.cpp(140): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\main.cpp(125): warning C4101: 'timeset' : unreferenced local variable
+         Generating Code...
        Link:
          E:\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Toto-core.exe" /INCREMENTAL /NOLOGO glew32s.lib glfw3.lib opengl32.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Toto-core.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Toto-core.lib" /MACHINE:X86 "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\platform.obj"
          "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\texture-atlas.obj"
@@ -59,6 +71,8 @@
          "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\buffer.obj"
          "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\indexbuffer.obj"
          "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\vertexarray.obj"
+         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\font.obj"
+         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\font_manager.obj"
          "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\label.obj"
          "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\group.obj"
          "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\layer.obj"
@@ -78,4 +92,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.59
+Time Elapsed 00:00:01.79

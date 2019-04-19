@@ -10,3 +10,7 @@
 #define HEIGHT	(TOPB - BOTTOMB)
 
 #define SHADER_COMPILED 0
+
+#define VSYNC_OFF	0
+#define VSYNC_ON	-1
+#define VSYNC_HALF	-2

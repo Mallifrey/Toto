@@ -1,20 +1,25 @@
-﻿Build started 31/12/2018 18:18:29.
+﻿Build started 19/4/2019 13:33:41 .
      1>Project "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\Toto-core\Toto-core.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         E:\VisualStudio2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /O2 /Ob2 /Oi /Ot /Oy- /GL /D GLEW_STATIC /D FT2_BUILD_LIBRARY /D WIN32 /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Intermediates\\" /Fd"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\graphics\batchrenderer2d.cpp
-         batchrenderer2d.cpp
-     1>src\graphics\batchrenderer2d.cpp(74): warning C4018: '<' : signed/unsigned mismatch
-     1>src\graphics\batchrenderer2d.cpp(93): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>src\graphics\batchrenderer2d.cpp(94): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>src\graphics\batchrenderer2d.cpp(95): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>src\graphics\batchrenderer2d.cpp(96): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>src\graphics\batchrenderer2d.cpp(130): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>src\graphics\batchrenderer2d.cpp(131): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>src\graphics\batchrenderer2d.cpp(132): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>src\graphics\batchrenderer2d.cpp(133): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>src\graphics\batchrenderer2d.cpp(139): warning C4018: '<' : signed/unsigned mismatch
-     1>src\graphics\batchrenderer2d.cpp(162): warning C4018: '<' : signed/unsigned mismatch
-     1>src\graphics\batchrenderer2d.cpp(221): warning C4018: '<' : signed/unsigned mismatch
+         E:\VisualStudio2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /O2 /Ob2 /Oi /Ot /Oy- /GL /D GLEW_STATIC /D FT2_BUILD_LIBRARY /D WIN32 /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Intermediates\\" /Fd"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(14): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(15): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(16): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(17): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(41): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(42): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(43): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(44): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src/graphics/layers/tilelayer.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\layers\layer.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\layers\layer.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>main.cpp(62): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>main.cpp(72): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(73): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(74): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(136): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>main.cpp(121): warning C4101: 'timeset' : unreferenced local variable
        Link:
          E:\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Toto-core.exe" /NOLOGO glew32s.lib glfw3.lib opengl32.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Toto-core.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Toto-core.lib" /MACHINE:X86 /SAFESEH "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Intermediates\platform.obj"
          "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Intermediates\texture-atlas.obj"
@@ -64,6 +69,8 @@
          "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Intermediates\buffer.obj"
          "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Intermediates\indexbuffer.obj"
          "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Intermediates\vertexarray.obj"
+         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Intermediates\font.obj"
+         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Intermediates\font_manager.obj"
          "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Intermediates\label.obj"
          "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Intermediates\group.obj"
          "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Release\Intermediates\layer.obj"
@@ -88,4 +95,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.80
+Time Elapsed 00:00:04.44
