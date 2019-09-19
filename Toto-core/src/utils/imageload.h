@@ -22,12 +22,15 @@ namespace toto {
 		BYTE* pixels = FreeImage_GetBits(dib);
 		*width = FreeImage_GetWidth(dib);
 		*height = FreeImage_GetHeight(dib);
-		int bits = FreeImage_GetBPP(dib);
+		unsigned int BPP = FreeImage_GetBPP(dib);
 
-		int size = *width * *height * (bits / 8);
+
+		int size = *width * *height * (BPP / 8) + (*width%4 * (*height - 1)); // specialni vzorec, nad kterym jsem stravil asi 3 hodiny
 		BYTE* result = new BYTE[size];
 		memcpy(result, pixels, size);
 		FreeImage_Unload(dib);
+
+		//std::cout << size << ", " << *width % 4 * (*height - 1)<< std::endl;
 
 		return result;
 	}

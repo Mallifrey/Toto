@@ -9,13 +9,16 @@ namespace toto { namespace graphics {
 		m_Fonts.push_back(font);
 	}
 
+	Font* FontManager::get() {
+		return m_Fonts[0];
+	}
+
 	Font* FontManager::get(const std::string& name) {
 		for (Font* font : m_Fonts) {
 			if (font->getName() == name) {
 				return font;
 			}
 		}
-		// TODO: vratit vychozi font
 		return nullptr;
 	}
 
@@ -25,7 +28,6 @@ namespace toto { namespace graphics {
 				return font;
 			}
 		}
-		// TODO: vratit vychozi font
 		return nullptr;
 	}
 

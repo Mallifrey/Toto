@@ -46,8 +46,10 @@ namespace toto { namespace graphics{
 		}
 
 		m_IBO = new IndexBuffer(indices, RENDERER_INDICES_SIZE);
+		m_IndexCount = 0;
 
 		glBindVertexArray(0);
+
 
 	}
 
@@ -76,7 +78,7 @@ namespace toto { namespace graphics{
 			}
 
 			if (!found) {
-				if (m_TextureSlots.size() >= 32) {
+				if (m_TextureSlots.size() >= RENDERER_MAX_TEXTURES) {
 					end();
 					flush();
 					begin();
@@ -137,9 +139,7 @@ namespace toto { namespace graphics{
 			m_TextureSlots.push_back(font.getID());
 			ts = (float)(m_TextureSlots.size());
 		}
-
-		float scaleX = 960.0f / 32.0f;
-		float scaleY = 540.0f / 18.0f;
+		const maths::vec2& scale = font.getScale();
 
 		float x = position.x;
 
@@ -152,13 +152,13 @@ namespace toto { namespace graphics{
 
 				if (i > 0){
 					float kerning = texture_glyph_get_kerning(glyph, text[i - 1]);
-					x += kerning / scaleX;
+					x += kerning / scale.x;
 				}
 
-				float x0 = x + glyph->offset_x / scaleX;
-				float y0 = position.y + glyph->offset_y / scaleY;
-				float x1 = x0 + glyph->width / scaleX;
-				float y1 = y0 - glyph->height / scaleY;
+				float x0 = x + glyph->offset_x / scale.x;
+				float y0 = position.y + glyph->offset_y / scale.y;
+				float x1 = x0 + glyph->width / scale.x;
+				float y1 = y0 - glyph->height / scale.y;
 
 				float u0 = glyph->s0;
 				float v0 = glyph->t0;
@@ -191,7 +191,7 @@ namespace toto { namespace graphics{
 
 				m_IndexCount += 6;
 
-				x += glyph->advance_x / scaleX;
+				x += glyph->advance_x / scale.x;
 			}
 		}
 	}
@@ -209,6 +209,8 @@ namespace toto { namespace graphics{
 			glBindTexture(GL_TEXTURE_2D, m_TextureSlots[i]);
 		}
 
+
+
 		glBindVertexArray(m_VAO);
 		m_IBO->bind();
 
@@ -218,5 +220,6 @@ namespace toto { namespace graphics{
 		glBindVertexArray(0);
 
 		m_IndexCount = 0;
+		m_TextureSlots.clear();
 	}
 }}

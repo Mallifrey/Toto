@@ -1,95 +1,244 @@
-﻿Build started 19/4/2019 17:26:38 .
-     1>Project "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\Toto-core\Toto-core.vcxproj" on node 2 (Build target(s)).
+﻿Build started 23/8/2019 18:45:16 .
+     1>Project "C:\Users\honza\documents\visual studio 2013\Projects\Toto\Toto-core\Toto-core.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         E:\VisualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Ob0 /Oi /Ot /Oy- /D GLEW_STATIC /D FT2_BUILD_LIBRARY /D WIN32 /D _LIB /D _CTR_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTCu /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\\" /Fd"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp src\graphics\window.cpp
-         window.cpp
-         main.cpp
-     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(14): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(15): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         E:\VisualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Ob0 /Oi /Ot /Oy- /D GLEW_STATIC /D FT2_BUILD_LIBRARY /D WIN32 /D _LIB /D _CTR_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTCu /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\\" /Fd"C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt examples\game.cpp main.cpp src\graphics\batchrenderer2d.cpp src\graphics\label.cpp src\graphics\layers\group.cpp src\graphics\layers\layer.cpp src\graphics\sprite.cpp src\graphics\static_sprite.cpp
+         static_sprite.cpp
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(12): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
      1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(16): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
      1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(17): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(41): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(42): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(43): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(44): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
-     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\layers\tilelayer.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(18): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(19): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(47): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         sprite.cpp
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(12): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(16): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(17): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(18): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(19): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(47): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         layer.cpp
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\layers\layer.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(12): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(16): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(17): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(18): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(19): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\layers\layer.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(47): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\layers\layer.cpp(19): warning C4018: '<' : signed/unsigned mismatch
+         group.cpp
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(12): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(16): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(17): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(18): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(19): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(47): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\layers\group.cpp(17): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\layers\group.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+         label.cpp
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(12): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(16): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(17): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(18): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(19): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(47): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+         batchrenderer2d.cpp
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(12): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(16): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(17): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(18): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(19): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(47): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\batchrenderer2d.cpp(72): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\batchrenderer2d.cpp(125): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\batchrenderer2d.cpp(148): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\batchrenderer2d.cpp(207): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(12): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(16): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(17): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(18): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(19): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(47): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
      1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\layers\layer.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
      1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\layers\layer.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\main.cpp(62): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
-     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\main.cpp(72): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
-     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\main.cpp(73): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
-     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\main.cpp(74): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
-     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\main.cpp(140): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
-     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\main.cpp(125): warning C4101: 'timeset' : unreferenced local variable
+         game.cpp
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\layers\layer.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(12): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(16): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(17): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(18): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\maths\maths_func.h(19): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\layers\layer.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(47): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(48): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(49): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\src\graphics\renderable2d.h(50): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\honza\documents\visual studio 2013\projects\toto\toto-core\examples\game.cpp(179): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
          Generating Code...
        Link:
-         E:\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Toto-core.exe" /INCREMENTAL /NOLOGO glew32s.lib glfw3.lib opengl32.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Toto-core.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Toto-core.lib" /MACHINE:X86 "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\platform.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\texture-atlas.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\texture-font.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\vector.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\autofit.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftbase.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftbbox.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftbitmap.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftdebug.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftfstype.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftgasp.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftglyph.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftgxval.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftinit.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftlcdfil.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftmm.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftotval.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftpatent.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftpfr.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftstroke.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftsynth.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftsystem.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\fttype1.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftwinfnt.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftxf86.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\bdf.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftcache.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\cff.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\type1cid.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftgzip.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\ftlzw.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\pcf.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\pfr.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\psaux.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\pshinter.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\psmodule.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\raster.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\sfnt.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\smooth.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\truetype.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\type1.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\type42.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\winfnt.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\main.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\batchrenderer2d.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\buffer.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\indexbuffer.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\vertexarray.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\font.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\font_manager.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\label.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\group.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\layer.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\tilelayer.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\simple2drenderer.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\shader.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\sprite.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\static_sprite.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\texture.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\window.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\mat4.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\vec2.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\vec3.obj"
-         "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Intermediates\vec4.obj"
-         Toto-core.vcxproj -> C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\bin\Debug\Toto-core.exe
-     1>Done Building Project "C:\Users\honza\Documents\Visual Studio 2013\Projects\Toto\Toto-core\Toto-core.vcxproj" (Build target(s)).
+         E:\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Toto-core.exe" /INCREMENTAL /NOLOGO glew32s.lib glfw3.lib opengl32.lib FreeImage.lib OpenAL32.lib libvorbis.lib libogg.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Toto-core.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Toto-core.lib" /MACHINE:X86 "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\game.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\platform.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\texture-atlas.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\texture-font.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\vector.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\autofit.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftbase.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftbbox.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftbitmap.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftdebug.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftfstype.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftgasp.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftglyph.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftgxval.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftinit.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftlcdfil.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftmm.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftotval.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftpatent.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftpfr.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftstroke.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftsynth.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftsystem.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\fttype1.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftwinfnt.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftxf86.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\bdf.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftcache.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\cff.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\type1cid.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftgzip.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ftlzw.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\pcf.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\pfr.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\psaux.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\pshinter.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\psmodule.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\raster.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\sfnt.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\smooth.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\truetype.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\type1.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\type42.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\winfnt.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\gc_common.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\gc_thread.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ga_openal.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ga.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\gau.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\ga_stream.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\main.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\sound.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\sound_manager.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\batchrenderer2d.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\buffer.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\indexbuffer.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\vertexarray.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\font.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\font_manager.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\label.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\group.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\layer.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\shader.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\sprite.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\static_sprite.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\texture.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\window.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\mat4.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\vec2.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\vec3.obj"
+         "C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Intermediates\vec4.obj"
+         libvorbis.lib(vorbisfile.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>game.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+            Creating library C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Toto-core.lib and object C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Toto-core.exp
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>vec4.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'vec4.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>vec3.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'vec3.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>vec2.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'vec2.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>mat4.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'mat4.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>vertexarray.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'vertexarray.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>indexbuffer.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'indexbuffer.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>buffer.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'buffer.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>sound_manager.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'sound_manager.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>sound.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'sound.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ga_stream.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ga_stream.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>gau.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'gau.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ga.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ga.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ga_openal.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ga_openal.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>gc_thread.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'gc_thread.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>gc_common.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'gc_common.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>winfnt.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'winfnt.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>type42.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'type42.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>type1.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'type1.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>truetype.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'truetype.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>smooth.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'smooth.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>sfnt.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'sfnt.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>raster.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'raster.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>psmodule.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'psmodule.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>pshinter.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'pshinter.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>psaux.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'psaux.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>pfr.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'pfr.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>pcf.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'pcf.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftlzw.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftlzw.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftgzip.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftgzip.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>type1cid.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'type1cid.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>cff.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'cff.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftcache.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftcache.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>bdf.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'bdf.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftxf86.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftxf86.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftwinfnt.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftwinfnt.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>fttype1.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'fttype1.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftsystem.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftsystem.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftsynth.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftsynth.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftstroke.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftstroke.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftpfr.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftpfr.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftpatent.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftpatent.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftotval.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftotval.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftmm.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftmm.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftlcdfil.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftlcdfil.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftinit.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftinit.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftgxval.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftgxval.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftglyph.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftglyph.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftgasp.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftgasp.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftfstype.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftfstype.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftdebug.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftdebug.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftbitmap.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftbitmap.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftbbox.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftbbox.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>ftbase.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'ftbase.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>autofit.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'autofit.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>vector.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'vector.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>texture-font.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'texture-font.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>texture-atlas.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'texture-atlas.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>platform.obj : warning LNK4099: PDB 'vc120.pdb' was not found with 'platform.obj' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\vc120.pdb'; linking object as if no debug info
+         Toto-core.vcxproj -> C:\Users\honza\documents\visual studio 2013\Projects\Toto\bin\Debug\Toto-core.exe
+     1>Done Building Project "C:\Users\honza\documents\visual studio 2013\Projects\Toto\Toto-core\Toto-core.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.79
+Time Elapsed 00:00:06.92

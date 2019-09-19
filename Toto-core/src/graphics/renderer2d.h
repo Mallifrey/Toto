@@ -12,7 +12,7 @@ namespace toto { namespace graphics {
 	class Renderable2D;
 	class Renderer2D {
 	protected:
-		std::vector<const maths::mat4> m_TransformationStack;
+		std::vector<maths::mat4> m_TransformationStack;
 		const maths::mat4* m_TransformationBack;
 	protected:
 		Renderer2D(){
@@ -36,7 +36,7 @@ namespace toto { namespace graphics {
 
 		virtual void begin() {};
 		virtual void submit(const Renderable2D* renderable) = 0;
-		virtual void drawString(const std::string& text, const maths::vec3& position, const Font& font, unsigned int color) { }
+		virtual void drawString(const std::string& text, const maths::vec3& position, const Font& font, unsigned int color) {};
 		virtual void end() {};
 		virtual void flush() = 0;
 	};

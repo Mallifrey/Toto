@@ -18,12 +18,13 @@ namespace toto { namespace graphics {
 		GLuint fragment = glCreateShader(GL_FRAGMENT_SHADER);
 
 #if SHADER_COMPILED
-		const char* vertSource = "#version 410 core\n\
+		const char* vertSource = 
+			"#version 410 core\n\
 			#extension GL_ARB_separate_shader_objects : enable\n\
-						\n\
+			\n\
 			layout(location = 0) in vec4 position; \n\
 			layout(location = 1) in vec4 color; \n\
-						\n\
+			\n\
 			uniform mat4 pr_matrix; \n\
 			uniform mat4 vw_matrix = mat4(1.0); \n\
 			uniform mat4 ml_matrix = mat4(1.0); \n\
@@ -65,6 +66,7 @@ namespace toto { namespace graphics {
 		const char* vertSource = vertSourceString.c_str();
 		const char* fragSource = fragSourceString.c_str();
 #endif
+
 
 		glShaderSource(vertex, 1, &vertSource, NULL);
 		glCompileShader(vertex);

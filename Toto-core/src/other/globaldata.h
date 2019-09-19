@@ -14,3 +14,5 @@
 #define VSYNC_OFF	0
 #define VSYNC_ON	-1
 #define VSYNC_HALF	-2
+
+#define VSYNC		VSYNC_ON

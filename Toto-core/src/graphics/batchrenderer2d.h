@@ -5,6 +5,7 @@
 #include "renderable2d.h"
 #include "renderer2d.h"
 #include "buffers/indexbuffer.h"
+#include "font.h"
 
 namespace toto{ namespace graphics{
 
@@ -18,6 +19,7 @@ namespace toto{ namespace graphics{
 #define SHADER_UV_INDEX		1
 #define SHADER_TID_INDEX	2
 #define SHADER_COLOR_INDEX	3
+#define RENDERER_MAX_TEXTURES 32
 
 	class BatchRenderer2D : public Renderer2D {
 	private:

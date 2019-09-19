@@ -11,9 +11,9 @@ namespace toto{ namespace graphics {
 		std::vector<Renderable2D*> m_Renderables;
 		Shader* m_Shader;
 		maths::mat4 m_ProjectionMatrix;
-	protected:
-		Layer(Renderer2D* renderer, Shader* shader, maths::mat4 m_ProjectionMatrix);
+		int i = 0;
 	public:
+		Layer(Renderer2D* renderer, Shader* shader, maths::mat4 m_ProjectionMatrix);
 		virtual ~Layer();
 		virtual void add(Renderable2D* renderable);
 		virtual void render();

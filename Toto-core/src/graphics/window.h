@@ -33,17 +33,18 @@ namespace toto {namespace graphics {
 		inline int getWidth() const { return m_Width; }
 		inline int getHeight() const { return m_Height; }
 
-		static bool isKeyPressed(unsigned int keycode);
+		static bool isKeyDown(unsigned int keycode);
 		static bool isKeyTyped(unsigned int keycode);
-		static bool isMouseButtonPressed(unsigned int button);
+		static bool isMouseButtonDown(unsigned int button);
 		static bool isMouseButtonClicked(unsigned int button);
 		static void getMousePosition(double& x, double& y);
+		static bool testCursor(float x, float y);
 	private:
 		bool init();
-		friend static void window_resize(GLFWwindow* m_Window, int width, int height);
-		friend static void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods);
-		friend static void mouse_button_callback(GLFWwindow* window, int button, int action, int mods);
-		friend static void cursor_position_callback(GLFWwindow* window, double xpos, double ypos);
+		friend void window_resize(GLFWwindow* m_Window, int width, int height);
+		friend void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods);
+		friend void mouse_button_callback(GLFWwindow* window, int button, int action, int mods);
+		friend void cursor_position_callback(GLFWwindow* window, double xpos, double ypos);
 	};
 
 }}

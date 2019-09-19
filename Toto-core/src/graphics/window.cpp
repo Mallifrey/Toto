@@ -1,6 +1,7 @@
 #include "window.h"
 #include "../other/globaldata.h"
 #include "font_manager.h"
+#include "../audio/sound_manager.h"
 
 namespace toto {namespace graphics {
 
@@ -21,7 +22,8 @@ namespace toto {namespace graphics {
 			glfwTerminate();
 		}
 
-		FontManager::add(new Font("SourceSansPro", "fonts/SourceSansPro-Regular.ttf", 32));
+		FontManager::add(new Font("SourceSansPro", "src/default/SourceSansPro-Regular.ttf", 32));
+		audio::SoundManager::init();
 
 		for (int i = 0; i < MAX_KEYS; i++) {
 			m_Keys[i] = false;
@@ -37,8 +39,9 @@ namespace toto {namespace graphics {
 	}
 
 	Window::~Window(){
-		glfwTerminate();
 		FontManager::clean();
+		audio::SoundManager::clean();
+		glfwTerminate();
 	}
 
 	bool Window::init() {
@@ -60,14 +63,12 @@ namespace toto {namespace graphics {
 		glfwSetKeyCallback(m_Window, key_callback);
 		glfwSetMouseButtonCallback(m_Window, mouse_button_callback);
 		glfwSetCursorPosCallback(m_Window, cursor_position_callback);
-		glfwSwapInterval(VSYNC_OFF); //VSYNC
-
+		glfwSwapInterval(VSYNC); //VSYNC
 
 		if (glewInit() != GLEW_OK){
 			std::cout << "Could not initialize GLEW!" << std::endl;
 			return false;
 		}
-
 
 		glEnable(GL_BLEND);
 		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
@@ -77,7 +78,7 @@ namespace toto {namespace graphics {
 		return true;
 	}
 
-	bool Window::isKeyPressed(unsigned int keycode){
+	bool Window::isKeyDown(unsigned int keycode){
 		if (keycode >= MAX_KEYS)
 			return false;
 		return m_Keys[keycode];
@@ -90,7 +91,7 @@ namespace toto {namespace graphics {
 	}
 
 
-	bool Window::isMouseButtonPressed(unsigned int button){
+	bool Window::isMouseButtonDown(unsigned int button){
 		if (button >= MAX_BUTTONS)
 			return false;
 		return m_MouseButtons[button];
@@ -107,6 +108,10 @@ namespace toto {namespace graphics {
 		y = my;
 	}
 
+	bool Window::testCursor(float x, float y){
+		return x<y?true:false;
+	}
+
 	void Window::clear() const {
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	}
@@ -114,14 +119,13 @@ namespace toto {namespace graphics {
 	void Window::update() {
 
 		for (int i = 0; i < MAX_KEYS; i++)
-			m_KeyTyped[i] = m_Keys[i] && !m_KeyState[i];
+			m_KeyTyped[i] = m_Keys[i] && ! m_KeyState[i];
 
 		for (int i = 0; i < MAX_BUTTONS; i++)
 			m_MouseClicked[i] = m_MouseButtons[i] && !m_MouseState[i];
 
 		memcpy(m_KeyState, m_Keys, MAX_KEYS);
 		memcpy(m_MouseState, m_MouseButtons, MAX_BUTTONS);
-
 		
 		GLenum error = glGetError();
 		if (error != GL_NO_ERROR) {
@@ -129,8 +133,9 @@ namespace toto {namespace graphics {
 		}
 
 		glfwPollEvents();
-		glfwGetWindowSize(m_Window, &m_Width, &m_Height);
+		//glfwGetWindowSize(m_Window, &m_Width, &m_Height); //navic
 		glfwSwapBuffers(m_Window);
+		audio::SoundManager::update();
 	}
 
 	bool Window::closed() const {

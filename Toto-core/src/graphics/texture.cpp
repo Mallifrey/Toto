@@ -4,6 +4,8 @@ namespace toto{ namespace graphics {
 
 	Texture::Texture(const std::string& filename)
 		: m_FileName(filename) {
+
+
 		m_TID = load();
 	}
 
@@ -13,6 +15,11 @@ namespace toto{ namespace graphics {
 
 	GLuint Texture::load() {
 		BYTE* pixels = load_image(m_FileName.c_str(), &m_Width, &m_Height);
+
+		if (pixels == nullptr){
+			std::cout << "[Texture] Could not find file '" << m_FileName << "'!" << std::endl;
+			pixels = load_image("src/default/DefaultTexture.png", &m_Width, &m_Height);
+		}
 
 		GLuint result;
 		glGenTextures(1, &result);
